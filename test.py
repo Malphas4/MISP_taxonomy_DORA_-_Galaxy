@@ -1,6 +1,8 @@
 import requests
 import pprint
 
+# https://github.com/rdassignies/pylegifrance
+
 # HOW TO GET client_id AND client_secret ?
 #
 # 1) Sign in on https://piste.gouv.fr/
@@ -14,6 +16,18 @@ client_id = 'xxx'
 client_secret = 'xxx'
 
 url = 'https://sandbox-oauth.piste.gouv.fr/api/oauth/token'
+
+from pylegifrance import LegiHandler
+client = LegiHandler()
+client.token_url = url
+client.api_url = "https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/"
+client.set_api_keys(legifrance_api_key=client_id, legifrance_api_secret=client_secret)
+
+from pylegifrance import recherche_CODE
+
+# Obtenir l'article 7 du Code civil
+resu = recherche_CODE(code_name="Code civil", search="7")
+pprint.pprint(resu)
 
 headers = {
         'Accept-Encoding' : 'gzip,deflate',
@@ -50,100 +64,12 @@ headers = {
 
 ########
 
-url = 'https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/search'
+url = 'https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/consult/getCnilWithAncienId'
 
-data = {
-    "recherche": {
-        "champs": [
-            {
-                "typeChamp": "NUM_ARTICLE",
-                "criteres": [
-                    {
-                        "typeRecherche": "EXACTE",
-                        "valeur": "L36-11",
-                        "operateur": "ET"
-                    }
-                ],
-                "operateur": "ET"
-            }
-        ],
-        "filtres": [
-            {
-                "facette": "NOM_CODE",
-                "valeurs": [
-                    "Code des postes et des communications électroniques"
-                ]
-            },
-            {
-                "facette": "DATE_VERSION",
-                "singleDate": "1514802418000"
-            }
-        ],
-        "pageNumber": "1",
-        "pageSize": "10",
-        "operateur": "ET",
-    "sort": "PERTINENCE",
-        "typePagination": "ARTICLE"
-    },
-   "fond": "CODE_DATE"
-}
-
-data1 = {
-  "recherche": {
-    "filtres": [
-      {
-        "valeurs": [
-          "LOI",
-          "ORDONNANCE",
-          "ARRETE"
-        ],
-        "facette": "NATURE"
-      },
-      {
-        "dates": {
-          "start": "2015-01-01",
-          "end": "2018-01-31"
-        },
-        "facette": "DATE_SIGNATURE"
-      }
-    ],
-    "sort": "SIGNATURE_DATE_DESC",
-    "fromAdvancedRecherche": "false",
-    "secondSort": "ID",
-    "champs": [
-      {
-        "criteres": [
-          {
-            "proximite": "2",
-            "valeur": "dispositions",
-            "criteres": [
-              {
-                "valeur": "soins",
-                "operateur": "ET",
-                "typeRecherche": "UN_DES_MOTS"
-              },
-              {
-                "proximite": "3",
-                "valeur": "fonction publique",
-                "operateur": "ET",
-                "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP"
-              }
-            ],
-            "operateur": "ET",
-            "typeRecherche": "UN_DES_MOTS"
-          }
-        ],
-        "operateur": "ET",
-        "typeChamp": "TITLE"
-      }
-    ],
-    "pageSize": "10",
-    "operateur": "ET",
-    "typePagination": "DEFAUT",
-    "pageNumber": "1"
-  },
-  "fond": "LODA_DATE"
-}
+data1 = "{\"ancienId\":\"MCN97020008A\"}"
 
 x = requests.post(url, headers=headers, data=data1)
-pprint.pprint(x.text)
+#pprint.pprint(x.text)
+
+resu = recherche_CODE(code_name="Code civil", search="7", formatter=True)
+pprint.pprint(resu)
