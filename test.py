@@ -17,8 +17,8 @@ from pylegifrance import recherche_LODA
 #   a) For client_id: select the id below 'Client ID'
 #   b) For client_secret: click on 'View secret' and copy the key
 
-client_id = 'xxx'
-client_secret = 'xxx'
+client_id = 'f6edd01f-6f0b-41b6-a653-24de534054b3'
+client_secret = '3f3a44c8-ee76-40bf-ac41-3e1c9f1f6203'
 url = 'https://sandbox-oauth.piste.gouv.fr/api/oauth/token'
 
 client = LegiHandler()
@@ -29,7 +29,7 @@ client.set_api_keys(legifrance_api_key=client_id, legifrance_api_secret=client_s
 
 # Obtenir l'article 7 du Code civil
 resu = recherche_CODE(code_name="Code civil", search="7")
-pprint.pprint(resu)
+#pprint.pprint(resu)
 
 headers = {
         'Accept-Encoding' : 'gzip,deflate',
@@ -49,7 +49,7 @@ data = {
 
 x = requests.post(url, data=data, headers=headers)
 access_token = str(x.json()['access_token'])
-print(access_token)
+#print(access_token)
 
 #######
 
@@ -66,23 +66,25 @@ headers = {
 
 ########
 
-url = 'https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/consult/getCnilWithAncienId'
+data1 = "{\"recherche\":{\"filtres\":[{\"valeurs\":[\"LOI\",\"ORDONNANCE\",\"ARRETE\"],\"facette\":\"NATURE\"},{\"dates\":{\"start\":\"2020-01-01\",\"end\":\"2025-01-31\"},\"facette\":\"DATE_SIGNATURE\"}],\"sort\":\"SIGNATURE_DATE_DESC\",\"fromAdvancedRecherche\":false,\"secondSort\":\"ID\",\"champs\":[{\"criteres\":[{\"valeur\":\"information\",\"criteres\":[{\"valeur\":\"sécurité\",\"operateur\":\"ET\",\"typeRecherche\":\"UN_DES_MOTS\"}],\"operateur\":\"ET\",\"typeRecherche\":\"UN_DES_MOTS\"}],\"operateur\":\"ET\",\"typeChamp\":\"TITLE\"}],\"pageSize\":10,\"operateur\":\"ET\",\"typePagination\":\"DEFAUT\",\"pageNumber\":1},\"fond\":\"LODA_DATE\"}"
 
-#data1 = "{\"ancienId\":\"MCN97020008A\"}"
+x = requests.post(url, headers=headers, data=data1)
+pprint.pprint(x.text)
 
-#x = requests.post(url, headers=headers, data=data1)
-#pprint.pprint(x.text)
-
-resu = recherche_LODA(search="cybersécurité", champ='ALL', type_recherche='TOUS_LES_MOTS_DANS_UN_CHAMP', nature=['DECRET'], date_signature=["2017-01-01", "2025-01-01"], page_size=1)
-pprint.pprint(resu)
-f = open("res1.json", "w")
-f.write(str(resu[0]))
+pprint.pprint(x)
+f = open("res3.json", "w")
+f.write(str(x.text))
 f.close()
 
-print("\n\n\n")
+url = 'https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/search'
 
-resu = recherche_LODA(search="RGPD", champ='ALL', type_recherche='TOUS_LES_MOTS_DANS_UN_CHAMP', nature=['DECRET'], date_signature=["2018-01-01", "2025-01-01"], page_size=3)
-pprint.pprint(resu)
-f = open("res2.json", "w")
-f.write(str(resu[0]))
+#data1 = "{\"recherche\":{\"filtres\":[{\"valeurs\":[\"LOI\",\"ORDONNANCE\",\"ARRETE\"],\"facette\":\"NATURE\"},{\"dates\":{\"start\":\"2015-01-01\",\"end\":\"2025-01-31\"},\"facette\":\"DATE_SIGNATURE\"}],\"sort\":\"SIGNATURE_DATE_DESC\",\"fromAdvancedRecherche\":false,\"secondSort\":\"ID\",\"champs\":[{\"criteres\":[{\"proximite\":1,\"valeur\":\"informatique\",\"criteres\":[{\"valeur\":\"informatique\",\"operateur\":\"ET\",\"typeRecherche\":\"TOUS_LES_MOTS_DANS_UN_CHAMP\"}],\"operateur\":\"ET\",\"typeRecherche\":\"TOUS_LES_MOTS_DANS_UN_CHAMP\"}],\"operateur\":\"ET\",\"typeChamp\":\"TITLE\"}],\"pageSize\":10,\"operateur\":\"ET\",\"typePagination\":\"DEFAUT\",\"pageNumber\":3},\"fond\":\"LODA_DATE\"}"
+data1 = "{\"recherche\":{\"filtres\":[{\"valeurs\":[\"LOI\",\"ORDONNANCE\",\"ARRETE\"],\"facette\":\"NATURE\"},{\"dates\":{\"start\":\"2020-01-01\",\"end\":\"2025-01-31\"},\"facette\":\"DATE_SIGNATURE\"}],\"sort\":\"SIGNATURE_DATE_DESC\",\"fromAdvancedRecherche\":false,\"secondSort\":\"ID\",\"champs\":[{\"criteres\":[{\"valeur\":\"information\",\"criteres\":[{\"valeur\":\"sécurité\",\"operateur\":\"ET\",\"typeRecherche\":\"UN_DES_MOTS\"}],\"operateur\":\"ET\",\"typeRecherche\":\"UN_DES_MOTS\"}],\"operateur\":\"ET\",\"typeChamp\":\"TITLE\"}],\"pageSize\":10,\"operateur\":\"ET\",\"typePagination\":\"DEFAUT\",\"pageNumber\":1},\"fond\":\"LODA_DATE\"}"
+
+x = requests.post(url, headers=headers, data=data1)
+pprint.pprint(x.text)
+
+pprint.pprint(x)
+f = open("res3.json", "w")
+f.write(str(x.text))
 f.close()
