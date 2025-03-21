@@ -1,0 +1,224 @@
+{
+    "executionTime":0,
+    "dereferenced":false,
+    "article":{
+       "id":"LEGIARTI000050039908",
+       "idTexte":"None",
+       "type":"AUTONOME",
+       "texte":"I. - Les droits à l'information et d'opposition prévus respectivement aux articles 12 à 14 et 21 du règlement (UE) 2016/679 du 27 avril 2016 susvisé ne s'appliquent pas au présent traitement, conformément à l'article 23 du même règlement. Les droits d'accès, de rectification et à l'effacement s'exercent directement auprès de l'Agence nationale de la sécurité des systèmes d'information, à l'attention de contact RGPD, 51, boulevard de La-Tour-Maubourg, 75700 Paris 07 SP. II. - Concernant les données intéressant la sûreté de l'Etat et la défense, les droits à l'information et d'opposition prévus respectivement aux articles 116 et 117 de la loi du 6 janvier 1978 susvisée ne s'appliquent pas au présent traitement. Les droits d'accès, de rectification et à l'effacement s'exercent de manière indirecte auprès de la Commission nationale de l'informatique et des libertés, dans les conditions prévues à l' article 118 de la loi du 6 janvier 1978 susvisée.",
+       "texteHtml":"<p><br/>I. - Les droits à l\\'information et d\\'opposition prévus respectivement aux articles 12 à 14 et 21 du règlement (UE) 2016/679 du 27 avril 2016 susvisé ne s\\'appliquent pas au présent traitement, conformément à l\\'article 23 du même règlement.<br/>Les droits d\\'accès, de rectification et à l\\'effacement s\\'exercent directement auprès de l\\'Agence nationale de la sécurité des systèmes d\\'information, à l\\'attention de contact RGPD, 51, boulevard de La-Tour-Maubourg, 75700 Paris 07 SP.<br/>II. - Concernant les données intéressant la sûreté de l\\'Etat et la défense, les droits à l\\'information et d\\'opposition prévus respectivement aux <a href=\"/affichTexteArticle.do?cidTexte=JORFTEXT000000886460&idArticle=LEGIARTI000037814598&dateTexte=&categorieLien=cid\" title=\"Loi n° 78-17 du 6 janvier 1978 - art. 116\">articles 116</a> et <a href=\"/affichTexteArticle.do?cidTexte=JORFTEXT000000886460&idArticle=LEGIARTI000037814600&dateTexte=&categorieLien=cid\" title=\"Loi n° 78-17 du 6 janvier 1978 - art. 117\">117 de la loi du 6 janvier 1978</a> susvisée ne s\\'appliquent pas au présent traitement.<br/>Les droits d\\'accès, de rectification et à l\\'effacement s\\'exercent de manière indirecte auprès de la Commission nationale de l\\'informatique et des libertés, dans les conditions prévues à l\\'<a href=\"/affichTexteArticle.do?cidTexte=JORFTEXT000000886460&idArticle=LEGIARTI000037814602&dateTexte=&categorieLien=cid\" title=\"Loi n° 78-17 du 6 janvier 1978 - art. 118\">article 118 de la loi du 6 janvier 1978</a> susvisée.</p>",
+       "num":"7",
+       "origine":"LEGI",
+       "nature":"Article",
+       "versionArticle":"1.0",
+       "etat":"VIGUEUR",
+       "dateDebut":1721433600000,
+       "dateFin":32472144000000,
+       "dateDebutExtension":32472144000000,
+       "dateFinExtension":32472144000000,
+       "inap":"None",
+       "ordre":3670009,
+       "context":{
+          "titresTM":[
+             
+          ],
+          "nombreVersionParent":0,
+          "longeurChemin":0,
+          "titreTxt":[
+             {
+                "debut":"2999-01-01",
+                "fin":"2999-01-01",
+                "titre":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+                "xPath":"/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                "cid":"JORFTEXT000050036675",
+                "id":"JORFTEXT000050036675",
+                "etat":""
+             },
+             {
+                "debut":"2024-07-20",
+                "fin":"2999-01-01",
+                "titre":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+                "xPath":"/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                "cid":"JORFTEXT000050036675",
+                "id":"LEGITEXT000050039867",
+                "etat":"VIGUEUR"
+             }
+          ]
+       },
+       "cid":"JORFARTI000050036716",
+       "cidTexte":"None",
+       "sectionParentCid":"None",
+       "sectionParentId":"None",
+       "sectionParentTitre":"None",
+       "fullSectionsTitre":"None",
+       "refInjection":"IG-20241212",
+       "idTechInjection":"LEGIARTI000050039908",
+       "idEli":"None",
+       "idEliAlias":"None",
+       "calipsos":[
+          
+       ],
+       "textTitles":[
+          {
+             "id":"JORFTEXT000050036675",
+             "titre":"Décret n°2024-847 du 19 juillet 2024",
+             "titreLong":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+             "etat":"",
+             "dateDebut":32472144000000,
+             "dateFin":32472144000000,
+             "cid":"JORFTEXT000050036675",
+             "datePubli":1721433600000,
+             "datePubliComputed":1721433600000,
+             "dateTexte":1721347200000,
+             "dateTexteComputed":1721347200000,
+             "nature":"DECRET",
+             "nor":"PRMD2416738D",
+             "num":"2024-847",
+             "numParution":"0172",
+             "originePubli":"JORF n° 0172 du 20 juillet 2024",
+             "appliGeo":"None",
+             "codesNomenclatures":[
+                
+             ],
+             "visas":"None",
+             "nota":"None",
+             "notice":"None",
+             "travauxPreparatoires":"None",
+             "signataires":"None",
+             "dossiersLegislatifs":[
+                
+             ],
+             "ancienId":"None",
+             "appellations":"None"
+          },
+          {
+             "id":"LEGITEXT000050039867",
+             "titre":"Décret n°2024-847 du 19 juillet 2024",
+             "titreLong":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+             "etat":"VIGUEUR",
+             "dateDebut":1721433600000,
+             "dateFin":32472144000000,
+             "cid":"JORFTEXT000050036675",
+             "datePubli":1721433600000,
+             "datePubliComputed":1721433600000,
+             "dateTexte":1721347200000,
+             "dateTexteComputed":1721347200000,
+             "nature":"DECRET",
+             "nor":"PRMD2416738D",
+             "num":"2024-847",
+             "numParution":"0172",
+             "originePubli":"JORF n° 0172 du 20 juillet 2024",
+             "appliGeo":"None",
+             "codesNomenclatures":[
+                
+             ],
+             "visas":"None",
+             "nota":"None",
+             "notice":"None",
+             "travauxPreparatoires":"None",
+             "signataires":"None",
+             "dossiersLegislatifs":[
+                
+             ],
+             "ancienId":"None",
+             "appellations":"None"
+          }
+       ],
+       "nota":"",
+       "notaHtml":"",
+       "activitePro":[
+          
+       ],
+       "numeroBrochure":[
+          
+       ],
+       "numeroBo":"None",
+       "conteneurs":[
+          
+       ],
+       "lienModifications":[
+          
+       ],
+       "lienCitations":[
+          {
+             "textCid":"JORFTEXT000000886460",
+             "textTitle":"Loi n° 78-17 du 6 janvier 1978 - art. 116",
+             "linkType":"CITATION",
+             "linkOrientation":"source",
+             "articleNum":"116",
+             "articleId":"LEGIARTI000037814598",
+             "natureText":"LOI",
+             "parentCid":"None",
+             "numTexte":"78-17",
+             "datePubli":252979200000,
+             "dateDebut":1559347200000
+          },
+          {
+             "textCid":"JORFTEXT000000886460",
+             "textTitle":"Loi n° 78-17 du 6 janvier 1978 - art. 117",
+             "linkType":"CITATION",
+             "linkOrientation":"source",
+             "articleNum":"117",
+             "articleId":"LEGIARTI000037814600",
+             "natureText":"LOI",
+             "parentCid":"None",
+             "numTexte":"78-17",
+             "datePubli":252979200000,
+             "dateDebut":1559347200000
+          },
+          {
+             "textCid":"JORFTEXT000000886460",
+             "textTitle":"Loi n° 78-17 du 6 janvier 1978 - art. 118",
+             "linkType":"CITATION",
+             "linkOrientation":"source",
+             "articleNum":"118",
+             "articleId":"LEGIARTI000037814602",
+             "natureText":"LOI",
+             "parentCid":"None",
+             "numTexte":"78-17",
+             "datePubli":252979200000,
+             "dateDebut":1559347200000
+          }
+       ],
+       "lienConcordes":[
+          
+       ],
+       "lienAutres":[
+          
+       ],
+       "articleVersions":[
+          {
+             "id":"LEGIARTI000050039908",
+             "etat":"VIGUEUR",
+             "version":"1.0",
+             "dateDebut":1721433600000,
+             "dateFin":32472144000000,
+             "numero":"None",
+             "ordre":"None"
+          },
+          {
+             "id":"JORFARTI000050036716",
+             "etat":"",
+             "version":"INITIALE",
+             "dateDebut":32472144000000,
+             "dateFin":32472144000000,
+             "numero":"None",
+             "ordre":"None"
+          }
+       ],
+       "computedNums":[
+          "7"
+       ],
+       "versionPrecedente":"JORFARTI000050036716",
+       "conditionDiffere":"None",
+       "historique":"None",
+       "surtitre":"None",
+       "renvoi":"None",
+       "infosComplementaires":"None",
+       "infosComplementairesHtml":"None",
+       "infosRestructurationBranche":"None",
+       "infosRestructurationBrancheHtml":"None",
+       "comporteLiensSP":false,
+       "multipleVersions":false
+    }
+ }

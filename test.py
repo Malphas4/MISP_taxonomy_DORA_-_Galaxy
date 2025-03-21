@@ -1,5 +1,10 @@
 import requests
 import pprint
+import json
+
+from pylegifrance import LegiHandler
+from pylegifrance import recherche_CODE
+from pylegifrance import recherche_LODA
 
 # https://github.com/rdassignies/pylegifrance
 
@@ -14,16 +19,13 @@ import pprint
 
 client_id = 'xxx'
 client_secret = 'xxx'
-
 url = 'https://sandbox-oauth.piste.gouv.fr/api/oauth/token'
 
-from pylegifrance import LegiHandler
 client = LegiHandler()
 client.token_url = url
 client.api_url = "https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/"
 client.set_api_keys(legifrance_api_key=client_id, legifrance_api_secret=client_secret)
 
-from pylegifrance import recherche_CODE
 
 # Obtenir l'article 7 du Code civil
 resu = recherche_CODE(code_name="Code civil", search="7")
@@ -66,10 +68,21 @@ headers = {
 
 url = 'https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/consult/getCnilWithAncienId'
 
-data1 = "{\"ancienId\":\"MCN97020008A\"}"
+#data1 = "{\"ancienId\":\"MCN97020008A\"}"
 
-x = requests.post(url, headers=headers, data=data1)
+#x = requests.post(url, headers=headers, data=data1)
 #pprint.pprint(x.text)
 
-resu = recherche_CODE(code_name="Code civil", search="7", formatter=True)
+resu = recherche_LODA(search="cybersécurité", champ='ALL', type_recherche='TOUS_LES_MOTS_DANS_UN_CHAMP', nature=['DECRET'], date_signature=["2017-01-01", "2025-01-01"], page_size=1)
 pprint.pprint(resu)
+f = open("res1.json", "w")
+f.write(str(resu[0]))
+f.close()
+
+print("\n\n\n")
+
+resu = recherche_LODA(search="RGPD", champ='ALL', type_recherche='TOUS_LES_MOTS_DANS_UN_CHAMP', nature=['DECRET'], date_signature=["2018-01-01", "2025-01-01"], page_size=3)
+pprint.pprint(resu)
+f = open("res2.json", "w")
+f.write(str(resu[0]))
+f.close()

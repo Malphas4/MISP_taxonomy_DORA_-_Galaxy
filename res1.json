@@ -1,0 +1,186 @@
+{
+    "executionTime":0,
+    "dereferenced":false,
+    "article":{
+       "id":"LEGIARTI000050039902",
+       "idTexte":"None",
+       "type":"AUTONOME",
+       "texte":"I. - Sont autorisés à accéder à tout ou partie des données à caractère personnel et informations mentionnées à l'article 2, dans la limite de leurs besoins et à raison de leurs attributions, les agents de l'Agence nationale de la sécurité des systèmes d'information. II. - Au titre de l'évaluation et de l'amélioration du niveau de sécurité des systèmes d'information, sont destinataires des données à caractère personnel et informations mentionnées au 1° de l'article 2, à raison de leurs attributions, les commanditaires des audits. III. - Au titre de la supervision et de l'analyse des événements affectant ou susceptibles d'affecter la sécurité des systèmes d'information, dans la limite de leurs besoins et de leurs attributions respectifs, sont destinataires de tout ou partie des données à caractère personnel et informations mentionnées au 2° de l'article 2, les agents de l'Etat, de l'autorité publique, le personnel de l'opérateur d'importance vitale ou celui de l'opérateur de service essentiel, les personnels de leurs prestataires ou sous-traitants qui sont les interlocuteurs du service de supervision de l'Agence nationale de la sécurité des systèmes d'information dans la chaîne de traitement des incidents. IV. - Au titre de la qualification, du traitement et de l'analyse d'un incident de sécurité affectant les systèmes d'information, sont destinataires de tout ou partie des données à caractère personnel et informations mentionnées au 3° de l'article 2 les entités contribuant au traitement de l'incident de sécurité si le bénéficiaire a donné son accord. V. - Les données relatives à des incidents informatiques traités ou ayant vocation à être traités en coopération avec des partenaires de l'Agence nationale de la sécurité des systèmes d'information et directement utiles à la prévention ou à la caractérisation des menaces ou relatives aux victimes potentielles, sont : a) Les adresses IP, url ou identifiants, directement ou indirectement identifiants ; b) Les adresses de courrier électronique ; c) Les noms, noms maritaux, prénoms, surnoms, alias. Les destinataires de ces données sont : 1° Les partenaires nationaux de l'Agence nationale de la sécurité des systèmes d'information à des fins de défense de leurs systèmes d'information ou des systèmes d'information de leurs clients, bénéficiaires ou partenaires ; 2° Les partenaires européens de l'Agence nationale de la sécurité des systèmes d'information, notamment le réseau des centres de réponse aux incidents de sécurité informatique, et internationaux, dans le domaine de la cybersécurité. VI. ‒ Les données à caractère personnel et informations intéressant la sûreté de l'Etat et la défense, identifiées de façon isolée ou groupée peuvent être transmises aux mêmes catégories de destinataires.",
+       "texteHtml":"<p><br/>I. - Sont autorisés à accéder à tout ou partie des données à caractère personnel et informations mentionnées à l'article 2, dans la limite de leurs besoins et à raison de leurs attributions, les agents de l'Agence nationale de la sécurité des systèmes d'information.<br/>II. - Au titre de l'évaluation et de l'amélioration du niveau de sécurité des systèmes d'information, sont destinataires des données à caractère personnel et informations mentionnées au 1° de l'article 2, à raison de leurs attributions, les commanditaires des audits.<br/>III. - Au titre de la supervision et de l'analyse des événements affectant ou susceptibles d'affecter la sécurité des systèmes d'information, dans la limite de leurs besoins et de leurs attributions respectifs, sont destinataires de tout ou partie des données à caractère personnel et informations mentionnées au 2° de l'article 2, les agents de l'Etat, de l'autorité publique, le personnel de l'opérateur d'importance vitale ou celui de l'opérateur de service essentiel, les personnels de leurs prestataires ou sous-traitants qui sont les interlocuteurs du service de supervision de l'Agence nationale de la sécurité des systèmes d'information dans la chaîne de traitement des incidents.<br/>IV. - Au titre de la qualification, du traitement et de l'analyse d'un incident de sécurité affectant les systèmes d'information, sont destinataires de tout ou partie des données à caractère personnel et informations mentionnées au 3° de l'article 2 les entités contribuant au traitement de l'incident de sécurité si le bénéficiaire a donné son accord.<br/>V. - Les données relatives à des incidents informatiques traités ou ayant vocation à être traités en coopération avec des partenaires de l'Agence nationale de la sécurité des systèmes d'information et directement utiles à la prévention ou à la caractérisation des menaces ou relatives aux victimes potentielles, sont :<br/>a) Les adresses IP, url ou identifiants, directement ou indirectement identifiants ;<br/>b) Les adresses de courrier électronique ;<br/>c) Les noms, noms maritaux, prénoms, surnoms, alias.<br/>Les destinataires de ces données sont :<br/>1° Les partenaires nationaux de l'Agence nationale de la sécurité des systèmes d'information à des fins de défense de leurs systèmes d'information ou des systèmes d'information de leurs clients, bénéficiaires ou partenaires ;<br/>2° Les partenaires européens de l'Agence nationale de la sécurité des systèmes d'information, notamment le réseau des centres de réponse aux incidents de sécurité informatique, et internationaux, dans le domaine de la cybersécurité.<br/>VI. ‒ Les données à caractère personnel et informations intéressant la sûreté de l'Etat et la défense, identifiées de façon isolée ou groupée peuvent être transmises aux mêmes catégories de destinataires.</p>",
+       "num":"4",
+       "origine":"LEGI",
+       "nature":"Article",
+       "versionArticle":"1.0",
+       "etat":"VIGUEUR",
+       "dateDebut":1721433600000,
+       "dateFin":32472144000000,
+       "dateDebutExtension":32472144000000,
+       "dateFinExtension":32472144000000,
+       "inap":"None",
+       "ordre":2097148,
+       "context":{
+          "titresTM":[
+             
+          ],
+          "nombreVersionParent":0,
+          "longeurChemin":0,
+          "titreTxt":[
+             {
+                "debut":"2999-01-01",
+                "fin":"2999-01-01",
+                "titre":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+                "xPath":"/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                "cid":"JORFTEXT000050036675",
+                "id":"JORFTEXT000050036675",
+                "etat":""
+             },
+             {
+                "debut":"2024-07-20",
+                "fin":"2999-01-01",
+                "titre":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+                "xPath":"/ARTICLE/CONTEXTE/TEXTE/TITRE_TXT",
+                "cid":"JORFTEXT000050036675",
+                "id":"LEGITEXT000050039867",
+                "etat":"VIGUEUR"
+             }
+          ]
+       },
+       "cid":"JORFARTI000050036710",
+       "cidTexte":"None",
+       "sectionParentCid":"None",
+       "sectionParentId":"None",
+       "sectionParentTitre":"None",
+       "fullSectionsTitre":"None",
+       "refInjection":"IG-20241210",
+       "idTechInjection":"LEGIARTI000050039902",
+       "idEli":"None",
+       "idEliAlias":"None",
+       "calipsos":[
+          
+       ],
+       "textTitles":[
+          {
+             "id":"JORFTEXT000050036675",
+             "titre":"Décret n°2024-847 du 19 juillet 2024",
+             "titreLong":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+             "etat":"",
+             "dateDebut":32472144000000,
+             "dateFin":32472144000000,
+             "cid":"JORFTEXT000050036675",
+             "datePubli":1721433600000,
+             "datePubliComputed":1721433600000,
+             "dateTexte":1721347200000,
+             "dateTexteComputed":1721347200000,
+             "nature":"DECRET",
+             "nor":"PRMD2416738D",
+             "num":"2024-847",
+             "numParution":"0172",
+             "originePubli":"JORF n° 0172 du 20 juillet 2024",
+             "appliGeo":"None",
+             "codesNomenclatures":[
+                
+             ],
+             "visas":"None",
+             "nota":"None",
+             "notice":"None",
+             "travauxPreparatoires":"None",
+             "signataires":"None",
+             "dossiersLegislatifs":[
+                
+             ],
+             "ancienId":"None",
+             "appellations":"None"
+          },
+          {
+             "id":"LEGITEXT000050039867",
+             "titre":"Décret n°2024-847 du 19 juillet 2024",
+             "titreLong":"Décret n° 2024-847 du 19 juillet 2024 relatif au traitement automatisé de données à caractère personnel dénommé « Données opérationnelles de cyberdéfense »",
+             "etat":"VIGUEUR",
+             "dateDebut":1721433600000,
+             "dateFin":32472144000000,
+             "cid":"JORFTEXT000050036675",
+             "datePubli":1721433600000,
+             "datePubliComputed":1721433600000,
+             "dateTexte":1721347200000,
+             "dateTexteComputed":1721347200000,
+             "nature":"DECRET",
+             "nor":"PRMD2416738D",
+             "num":"2024-847",
+             "numParution":"0172",
+             "originePubli":"JORF n° 0172 du 20 juillet 2024",
+             "appliGeo":"None",
+             "codesNomenclatures":[
+                
+             ],
+             "visas":"None",
+             "nota":"None",
+             "notice":"None",
+             "travauxPreparatoires":"None",
+             "signataires":"None",
+             "dossiersLegislatifs":[
+                
+             ],
+             "ancienId":"None",
+             "appellations":"None"
+          }
+       ],
+       "nota":"",
+       "notaHtml":"",
+       "activitePro":[
+          
+       ],
+       "numeroBrochure":[
+          
+       ],
+       "numeroBo":"None",
+       "conteneurs":[
+          
+       ],
+       "lienModifications":[
+          
+       ],
+       "lienCitations":[
+          
+       ],
+       "lienConcordes":[
+          
+       ],
+       "lienAutres":[
+          
+       ],
+       "articleVersions":[
+          {
+             "id":"LEGIARTI000050039902",
+             "etat":"VIGUEUR",
+             "version":"1.0",
+             "dateDebut":1721433600000,
+             "dateFin":32472144000000,
+             "numero":"None",
+             "ordre":"None"
+          },
+          {
+             "id":"JORFARTI000050036710",
+             "etat":"",
+             "version":"INITIALE",
+             "dateDebut":32472144000000,
+             "dateFin":32472144000000,
+             "numero":"None",
+             "ordre":"None"
+          }
+       ],
+       "computedNums":[
+          "4"
+       ],
+       "versionPrecedente":"JORFARTI000050036710",
+       "conditionDiffere":"None",
+       "historique":"None",
+       "surtitre":"None",
+       "renvoi":"None",
+       "infosComplementaires":"None",
+       "infosComplementairesHtml":"None",
+       "infosRestructurationBranche":"None",
+       "infosRestructurationBrancheHtml":"None",
+       "comporteLiensSP":false,
+       "multipleVersions":false
+    }
+ }
