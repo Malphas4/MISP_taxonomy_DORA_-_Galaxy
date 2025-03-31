@@ -17,8 +17,8 @@ from pylegifrance import recherche_LODA
 #   a) For client_id: select the id below 'Client ID'
 #   b) For client_secret: click on 'View secret' and copy the key
 
-client_id = 'f6edd01f-6f0b-41b6-a653-24de534054b3'
-client_secret = '3f3a44c8-ee76-40bf-ac41-3e1c9f1f6203'
+client_id = 'xxx'
+client_secret = 'xxx'
 url = 'https://sandbox-oauth.piste.gouv.fr/api/oauth/token'
 
 client = LegiHandler()
