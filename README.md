@@ -55,5 +55,7 @@ Une piste possible mais envisagée trop tard pour la deadline de la faculté est
 
 ## Comment lancer le projet
 
-Pour lancer le projet, il suffit d'exécuter avec Python notre script
+Pour lancer le projet, il suffit d'exécuter avec Python notre script.
+Il utilise directement l'API [pylegifrance](https://github.com/rdassignies/pylegifrance) qui permet d'avoir accès aux informations sur les textes de lois français. Plus d'informations sur le site https://dassignies.law/blog/utilisation-de-lapi-legifrance.
+
 Des information supplémentaires sont dasn le README.MD de la galaxy pour l'API rest
