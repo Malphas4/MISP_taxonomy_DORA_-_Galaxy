@@ -3,16 +3,16 @@
 ## Description
 
 Le but de ce projet est de créer une taxonomie pour DORA.
-Nous nous sommes basés sur l'article de loi officiel accessible[ici](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng)
+Nous nous sommes basés sur l'article de loi officiel accessible [ici](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng)
 Plusiers méthodes ont été utilisées :
 1. Manuellement 
 2. parsing textuel
 3. IA avec contrôle humain et le json généré précédemment entrée
 ### Méthode manuelle
 Une première version manuelle a été faite pour la liste des entités et leur définition.
-Le json respectant le modèle et la documentqtion disponible [ici][https://www.circl.lu/doc/misp/taxonomy/]
+Le json respectant le modèle et la documentqtion disponible [ici](https://www.circl.lu/doc/misp/taxonomy/)
 ### Parsing
-Nous avons copié DORA dans un document .txt puis avons mis en forme le texte. Obtenir le json de l'étape 1 était relativement simple mais l'enrichir par cette méthode afin d'obtenir un json cohérent et structuré n'était pas possible. Une réflexion humaien est nécessaire afin de sélectionner les parties à intégrer. De plus, le texte n'évoluera pas dans le temps et si un changement est fait, nosu estimons que la l'évolution de NIS  à NIS 2 est un bon exemple, les fonctions seront à refaire. 
+Nous avons copié DORA dans un document .txt puis avons mis en forme le texte. Obtenir le json de l'étape 1 était relativement simple mais l'enrichir par cette méthode afin d'obtenir un json cohérent et structuré n'était pas possible. Une réflexion humaien est nécessaire afin de sélectionner les parties à intégrer. De plus, le texte n'évoluera pas dans le temps et si un changement est fait, nous estimons que la l'évolution de NIS  à NIS 2 est un bon exemple, les fonctions seront à refaire. 
 Ainsi cette approche a été abandonné en cours de route car peu efficace.
 ### IA
 L'utilisation d'une IA bureautique (Claude, Copilot, ChatGPT) a été essayé. Une limite de texte est imposé  et empêche le traitement de l'article en entier.
