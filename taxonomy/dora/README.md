@@ -7,7 +7,7 @@ Nous nous sommes basés sur l'article de loi officiel accessible [ici](https://e
 Plusiers méthodes ont été utilisées :
 1. Manuellement 
 2. parsing textuel
-3. IA avec contrôle humain et le json généré précédemment entrée
+3. IA avec contrôle humain et le json fait à la main en entrée
 ### Méthode manuelle
 Une première version manuelle a été faite pour la liste des entités et leur définition.
 Le json respectant le modèle et la documentqtion disponible [ici](https://www.circl.lu/doc/misp/taxonomy/)
