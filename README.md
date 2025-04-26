@@ -22,7 +22,7 @@ De plus, un contrôle humain est obligatoire mais reste peu chronophage et plus 
 Une piste possible serait du parsing pour sélectionner les parties intéressantes puis de les transformer en JSOn par IA mais cela n'a aps été fait par manque de temps et et volonté de passer à la galaxie.
 ## Vérification 
 Nous avons installé une instance locale de MISP  avec [docker](https://github.com/MISP/misp-docker) afin de texter la taxonomie.
-Uen requête pour l'ajouter au github MISP reste à faire, des réflexions pour l'améliorer sont encore présentes.
+Une requête pour l'ajouter au github MISP reste à faire, des réflexions pour l'améliorer sont encore présentes.
 
 # Galaxy_French_Law
 
