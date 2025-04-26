@@ -1,0 +1,271 @@
+{
+  "namespace": "dora",
+  "description": "This taxonomy categorizes the key elements of the Digital Operational Resilience Act (DORA) as established by the European Union. It covers essential aspects such as provider status, incident classification, and ICT risk management required to ensure the operational resilience of financial and critical ICT service provider entities.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "dora-entity-type",
+      "expanded": "Entity Type",
+      "description": "Specifies the type of financial or ICT service provider entity subject to DORA regulation."
+    },
+    {
+      "value": "dora-provider-status",
+      "expanded": "Provider Status",
+      "description": "Indicates whether a third party ICT provider is critical or not.",
+      "exclusive": true
+    },
+    {
+      "value": "dora-incident-classification",
+      "expanded": "Incident Classification",
+      "description": "Categorizes ICT incidents based on severity and potential impact as per DORA guidelines.",
+      "exclusive": true
+    },
+    {
+      "value": "dora-ict-risk-management",
+      "expanded": "ICT Risk Management",
+      "description": "Elements related to the management of ICT risks.",
+      "exclusive": false
+    }
+  ],
+  "values": [
+    {
+      "predicate": "dora-entity-type",
+      "entry": [
+        {
+          "value": "credit-institution",
+          "expanded": "Credit Institutions",
+          "description": "Financial institutions that accept deposits and provide credit facilities."
+        },
+        {
+          "value": "investment-firm",
+          "expanded": "Investment Firm",
+          "description": "Firms providing investment, asset management, and financial advisory services."
+        },
+        {
+          "value": "payment-institution",
+          "expanded": "Payment Institution",
+          "description": "Entities providing payment services including processing electronic payments and transactions."
+        },
+        {
+          "value": "account-information-service-provider",
+          "expanded": "Account Information Service Provider",
+          "description": "Service providers offering account information services that aggregate financial data for consumers."
+        },
+        {
+          "value": "electronic-money-institution",
+          "expanded": "Electronic Money Institution",
+          "description": "Institutions issuing electronic money and facilitating digital transactions."
+        },
+        {
+          "value": "central-counterparty",
+          "expanded": "Central Counterparty",
+          "description": "Central counterparties that act as intermediaries in financial markets, ensuring the clearing of trades."
+        },
+        {
+          "value": "trade-repository",
+          "expanded": "Trade Repository",
+          "description": "Entities operating trade repositories that record and store details of financial market transactions."
+        },
+        {
+          "value": "central-securities-depository",
+          "expanded": "Central Securities Depository",
+          "description": "Institutions responsible for holding securities and enabling securities settlement."
+        },
+        {
+          "value": "trading-venue",
+          "expanded": "Trading Venue",
+          "description": "Platforms where financial instruments are traded, including stock exchanges and alternative trading systems."
+        },
+        {
+          "value": "manager-of-alternative-investment-funds",
+          "expanded": "Manager of Alternative Investment Funds",
+          "description": "Managers overseeing alternative investment funds, including private equity and hedge funds."
+        },
+        {
+          "value": "management-company",
+          "expanded": "Management Company",
+          "description": "Companies providing management services for funds or financial products."
+        },
+        {
+          "value": "data-reporting-service-provider",
+          "expanded": "Data Reporting Service Provider",
+          "description": "Service providers offering data reporting solutions to meet regulatory compliance requirements."
+        },
+        {
+          "value": "insurance-undertaking",
+          "expanded": "Insurance Undertaking",
+          "description": "Insurance companies providing various insurance products to consumers and businesses."
+        },
+        {
+          "value": "reinsurance-undertaking",
+          "expanded": "Reinsurance Undertaking",
+          "description": "Entities offering reinsurance services to primary insurers for risk mitigation."
+        },
+        {
+          "value": "insurance-intermediary",
+          "expanded": "Insurance Intermediary",
+          "description": "Intermediaries facilitating insurance contracts between insurers and policyholders."
+        },
+        {
+          "value": "ancillary-insurance-intermediary",
+          "expanded": "Ancillary Insurance Intermediary",
+          "description": "Additional intermediaries supporting the primary processes in insurance transactions."
+        },
+        {
+          "value": "reinsurance-intermediary",
+          "expanded": "Reinsurance Intermediary",
+          "description": "Intermediaries that facilitate reinsurance transactions between insurers."
+        },
+        {
+          "value": "institution-for-occupational-retirement",
+          "expanded": "Institution for Occupational Retirement",
+          "description": "Institutions managing occupational retirement schemes and pension funds."
+        },
+        {
+          "value": "small-institution-for-occupational-retirement-provision",
+          "expanded": "Small Institution for Occupational Retirement Provision",
+          "description": "Smaller-scale institutions offering occupational retirement products and services."
+        },
+        {
+          "value": "credit-rating-agency",
+          "expanded": "Credit Rating Agency",
+          "description": "Agencies providing credit rating assessments on financial instruments and entities."
+        },
+        {
+          "value": "crypto-asset-service-provider",
+          "expanded": "Crypto-Asset Service Provider",
+          "description": "Entities offering services related to crypto assets, including custody and trading platforms."
+        },
+        {
+          "value": "issuer-of-asset-referenced-tokens",
+          "expanded": "Issuer of Asset-Referenced Tokens",
+          "description": "Entities that issue asset-referenced tokens to represent stable value and assets digitally."
+        },
+        {
+          "value": "administrator-of-critical-benchmarks",
+          "expanded": "Administrator of Critical Benchmarks",
+          "description": "Organizations administering critical financial benchmarks or indices."
+        },
+        {
+          "value": "crowdfunding-service-provider",
+          "expanded": "Crowdfunding Service Provider",
+          "description": "Platforms facilitating crowdfunding activities and capital raising for projects."
+        },
+        {
+          "value": "securitisation-repository",
+          "expanded": "Securitisation Repository",
+          "description": "Repositories that store data related to securitisation transactions and asset-backed securities."
+        }
+      ]
+    },
+    {
+      "predicate": "dora-provider-status",
+      "entry": [
+        {
+          "value": "third-party-non-critical",
+          "expanded": "Not Critical",
+          "description": "Not Critical third party ICT provider."
+        },
+        {
+          "value": "third-party-critical",
+          "expanded": "Critical",
+          "description": "Critical third party ICT provider."
+        }
+      ]
+    },
+    {
+      "predicate": "dora-incident-classification",
+      "entry": [
+        {
+          "value": "critical",
+          "expanded": "Critical Incident",
+          "description": "An incident with severe impact on digital operations requiring immediate response.",
+          "colour": "#CC0033"
+        },
+        {
+          "value": "major",
+          "expanded": "Major Incident",
+          "description": "An incident causing significant operational disruption.",
+          "colour": "#FFC000"
+        },
+        {
+          "value": "minor",
+          "expanded": "Minor Incident",
+          "description": "An incident with limited operational impact.",
+          "colour": "#339900"
+        },
+        {
+          "value": "informational",
+          "expanded": "Informational",
+          "description": "An incident that is recorded for informational purposes without operational impact.",
+          "colour": "#ffffff"
+        }
+      ]
+    },
+    {
+      "predicate": "dora-ict-risk-management",
+      "entry": [
+        {
+          "value": "governance-and-organisation",
+          "expanded": "Governance and Organisation",
+          "description": "Governance and organisation in ICT risk management."
+        },
+        {
+          "value": "ict-risk-management-framework",
+          "expanded": "ICT Risk Management Framework",
+          "description": "The framework used for managing ICT risks."
+        },
+        {
+          "value": "ict-systems-protocols-and-tools",
+          "expanded": "ICT Systems, Protocols and Tools",
+          "description": "Systems, protocols, and tools used for ICT risk management."
+        },
+        {
+          "value": "identification",
+          "expanded": "Identification",
+          "description": "Processes for identifying ICT risks."
+        },
+        {
+          "value": "protection-and-prevention",
+          "expanded": "Protection and Prevention",
+          "description": "Measures for protecting and preventing ICT risks."
+        },
+        {
+          "value": "detection",
+          "expanded": "Detection",
+          "description": "Mechanisms for detecting ICT risks."
+        },
+        {
+          "value": "response-and-recovery",
+          "expanded": "Response and Recovery",
+          "description": "Procedures for responding to and recovering from ICT incidents."
+        },
+        {
+          "value": "backup-policies-and-procedures",
+          "expanded": "Backup Policies and Procedures, Restoration and Recovery Procedures and Methods",
+          "description": "Policies and procedures related to backup, restoration, and recovery."
+        },
+        {
+          "value": "learning-and-evolving",
+          "expanded": "Learning and Evolving",
+          "description": "Processes for learning from ICT incidents and evolving risk management practices."
+        },
+        {
+          "value": "communication",
+          "expanded": "Communication",
+          "description": "Communication strategies in ICT risk management."
+        },
+        {
+          "value": "further-harmonisation",
+          "expanded": "Further Harmonisation of ICT Risk Management Tools, Methods, Processes and Policies",
+          "description": "Efforts to harmonise ICT risk management practices."
+        },
+        {
+          "value": "simplified-ict-risk-management-framework",
+          "expanded": "Simplified ICT Risk Management Framework",
+          "description": "A simplified approach to ICT risk management."
+        }
+      ]
+    }
+  ]
+}
