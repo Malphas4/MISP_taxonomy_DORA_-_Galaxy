@@ -43,8 +43,8 @@ Une alternative a été d'utiliser un projet open source sur Github mais la limi
 La recherche dynamique a projet d'être ajouté à l'API mais ne l'est pas encore.
 
 ### Solution alernative
-Face à l'impossibilité d'utiliser l'API pour générer des json utilisable pour la galaxy, nous avons cherché d'autres alternatives, en vain
-
+Face à l'impossibilité d'utiliser l'API pour générer des json utilisable pour la galaxy, nous avons cherché d'autres alternatives, en vain.
+Une piste possible mais envisagée trop tard est dans les axes d'amélioration.
 ## Références
 
 ## Axes d'améliorations et réalisations restantes
